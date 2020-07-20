@@ -1,3 +1,4 @@
+require 'pry'
 def update_status
    epic_tragedy = {
       :montague => {
@@ -19,6 +20,7 @@ def update_status
          ]
       }
    }
+   binding.pry
 end
 
 
