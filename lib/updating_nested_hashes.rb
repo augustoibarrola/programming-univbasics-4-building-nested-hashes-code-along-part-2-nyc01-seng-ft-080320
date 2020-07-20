@@ -20,14 +20,15 @@ def update_status
          ]
       }
    }
-   if epic_tragedy[:montague][:hero][:status] = "alive"
+   if epic_tragedy[:montague][:hero][:status] = "alive" do
    epic_tragedy[:montague][:hero][:status] = "dead"
+   end
+ if epic_tragedy[:capulet][:heroine][:status] = "alive" do
+   epic_tragedy[:capulet][:heroine][:status] = "dead"
  end
- if epic_tragedy[:capulet][:heroine][:status] = "alive"
- epic_tragedy[:capulet][:heroine][:status] = "dead"
  epic_tragedy
 end
-  
+
 def add_characters
    epic_tragedy = {
       :montague => {
