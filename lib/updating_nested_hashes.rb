@@ -20,12 +20,12 @@ def update_status
          ]
       }
    }
-   if epic_tragedy[:montague][:hero][:status] = "alive" do
+   if epic_tragedy[:montague][:hero][:status] = "alive" then
    epic_tragedy[:montague][:hero][:status] = "dead"
    end
- if epic_tragedy[:capulet][:heroine][:status] = "alive" do
+ if epic_tragedy[:capulet][:heroine][:status] = "alive" then
    epic_tragedy[:capulet][:heroine][:status] = "dead"
- end
+ end,
  epic_tragedy
 end
 
