@@ -19,13 +19,8 @@ def update_status
          ]
       }
    }
-   if epic_tragedy[:status] = "alive"
-     epic_tragedy[:status] = "dead"
-   end
+
 end
-
-
-
 
 
 
