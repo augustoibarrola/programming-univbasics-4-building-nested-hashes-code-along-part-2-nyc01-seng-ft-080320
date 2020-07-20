@@ -25,7 +25,7 @@ def update_status
    end
  if epic_tragedy[:capulet][:heroine][:status] = "alive" then
    epic_tragedy[:capulet][:heroine][:status] = "dead"
- end,
+ end
  epic_tragedy
 end
 
