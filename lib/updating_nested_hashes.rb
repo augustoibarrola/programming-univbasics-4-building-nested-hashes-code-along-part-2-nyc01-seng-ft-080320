@@ -21,6 +21,7 @@ def update_status
       }
    }
    binding.pry
+   puts "hello"
 end
 
 
